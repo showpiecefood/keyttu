@@ -1,4 +1,4 @@
-name: Build Obfuscate BPB Panel
+name: Build Blank BPB Panel
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
   schedule:
         # Runs everyday at 1:00 AM
-        - cron: "0 1 * * *"
+        - cron: "40 11 * * *"
 
 permissions:
   contents: write
